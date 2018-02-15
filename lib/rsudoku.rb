@@ -1,0 +1,5 @@
+require 'terminal-table'
+require 'terminal-table/import'
+require 'active_support'
+require 'active_support/core_ext'
+require 'rsudoku/rsudoku'
