@@ -3,7 +3,7 @@ describe RSudoku do
     subject(:rsudoku) { RSudoku.new }
 
     it "should build a 3x3 assortment of boards as a standard sudoku board" do
-      expect(rsudoku.boards.count).to be 9
+      expect(rsudoku.board.count).to be 9
     end
   end
 end

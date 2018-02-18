@@ -1,4 +1,7 @@
+require "rsudoku/rsudoku/constructors"
+
 class RSudoku
+  extend Constructors
   # Creates a new RSudoku object
   #
   # @param [Object] obj A multi-dim array representing an unsolved sudoku board,
@@ -15,10 +18,10 @@ class RSudoku
     @board = obj
   end
 
-  # @!attribute [r] boards
+  # @!attribute [r] board
   #   @return [boards] An array of the sudoku boards.
 
-  attr_reader :boards
+  attr_reader :board
 
   class << self
 
